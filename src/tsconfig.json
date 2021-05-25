@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "sourceMap": true
-  },
-  "files": [
-    "./components/dice/index.ts",
-    "./components/dice-trays/index.ts"
-  ]
-}

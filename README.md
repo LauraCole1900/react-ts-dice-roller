@@ -1,69 +1,70 @@
-# Half-Elf's Handy Dice Roller
+# Getting Started with Create React App
 
-## Table of Contents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-* [Description](#description)
-* [Links](#links)
-* [Screenshots](#screenshots)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Technologies Used](#technologies)
-* [Tests](#tests)
-* [Credits](#credits)
-* [Contributing](#contributing)
-* [Questions](#questions)
-* [License](#license)
+## Available Scripts
 
-## Description
+In the project directory, you can run:
 
-This application will allow the user to roll virtual dice with the tap of a button. The user will be able to select how many dice, between 1 and 10; how many sides: 2, 3, 4, 6, 8, 10, 12, 20; and will have the option of rolling a standard 7-dice DnD set together ... because of course you want to see that!
+### `npm start`
 
-## Links
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[Deployed application on Heroku](https://#) NOT DEPLOYED YET
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Screenshots
+### `npm test`
 
-Landing page:
-![Landing page](assets/#.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1 d6:
-![Login page](assets/#.png)
+### `npm run build`
 
-Full 7-dice set:
-![Profile page](assets/#.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Ten d4s:
-![All Conferences page](assets/#.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Installation Instructions
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-npm install
+### `npm run eject`
 
-## Usage
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-This project is intended to be used anytime a dice roll is called for, but you don't have any dice.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Technologies Used
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-React, Node.js, TypeScript
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Tests
+## Learn More
 
-npm run test
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Credits
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-N/A
+### Code Splitting
 
-## Contributing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-We believe code is never finished, and welcome your contributions to enhance the application's functionality. Please adhere to the Code of Conduct for the Contributor Covenant, version 2.0, at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+### Analyzing the Bundle Size
 
-## Questions
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-If you have further questions, you can reach me at lauracole1900@comcast.net. For more of my work, see [my GitHub](https://github.com/LauraCole1900).
+### Making a Progressive Web App
 
-## License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-![License badge](https://img.shields.io/badge/license-MIT-brightgreen).
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
