@@ -1,11 +1,19 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // User selects number of dice
+  // User selects type of dice
+  // Multiple dice trays available?
+  // "Roll" method that rolls all dice
+  // Need to lift state from dice to here?
+  // Math.random here? or in dice components?
+  // Will need to throw results into an array in state for display
+
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
