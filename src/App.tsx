@@ -1,3 +1,4 @@
+import React from "react";
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,6 +10,12 @@ function App() {
   // Need to lift state from dice to here?
   // Math.random here? or in dice components?
   // Will need to throw results into an array in state for display
+  let diceType: number;
+
+  const diceRoll = () => {
+    const roll: number = Math.floor(Math.random() * diceType) + 1;
+    return roll
+  }
 
   return (
     <div className="App">
