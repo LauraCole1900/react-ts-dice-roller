@@ -38,6 +38,9 @@ p {
 .button:active {
   background: linear-gradient(to bottom, #e2e2e2, #878992);
 }
+.button:target {
+  background: linear-gradient(to bottom, #e2e2e2, #878992);
+}
 
 .rollBtn {
   min-width: 4em;
