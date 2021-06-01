@@ -25,16 +25,16 @@ This application will allow the user to roll virtual dice with the tap of a butt
 ## Screenshots
 
 Landing page:
-![Landing page](assets/#.png)
+![Landing page](assets/lander.png)
 
 1 d6:
-![Login page](assets/#.png)
+![Single d6](assets/#.png)
 
 Full 7-dice set:
-![Profile page](assets/#.png)
+![7-dice set](assets/#.png)
 
 Ten d4s:
-![All Conferences page](assets/#.png)
+![10 d4s](assets/#.png)
 
 ## Installation Instructions
 
