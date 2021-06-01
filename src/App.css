@@ -40,7 +40,7 @@ p {
 .button:focus {
   background: linear-gradient(to bottom, #e2e2e2, #878992);
 }
-.button:active {
+.button.active {
   background: linear-gradient(to bottom, #e2e2e2, #878992);
 }
 .button:target {
