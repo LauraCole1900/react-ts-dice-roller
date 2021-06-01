@@ -18,16 +18,14 @@ function App() {
   const setNum = (e: any) => {
     setRoll([]);
     const dNum = JSON.parse(e.target.value);
-    console.log({ dNum });
-    console.log(typeof dNum);
+    console.log({ dNum }, typeof dNum);
     setNumDice(dNum);
   }
 
   const setType = (e: any) => {
     setRoll([]);
     const dType = JSON.parse(e.target.value);
-    console.log({ dType });
-    console.log(typeof dType);
+    console.log({ dType }, typeof dType);
     setDiceType(dType);
   }
 
@@ -36,8 +34,7 @@ function App() {
     if (diceType !== 7) {
       for (let i = 0; i < numDice; i++) {
         const dRoll: number = Math.floor(Math.random() * diceType) + 1;
-        console.log(dRoll);
-        console.log(typeof dRoll);
+        console.log({ dRoll }, typeof dRoll);
         rollArr = [...rollArr, dRoll]
       }
       setRoll(rollArr);
