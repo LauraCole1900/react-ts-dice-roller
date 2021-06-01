@@ -11,7 +11,7 @@ function App() {
   // Math.random here? or in dice components?
   // Will need to throw results into an array in state for display
 
-  const [numDice, setNumDice] = useState<number>(1);
+  const [numDice, setNumDice] = useState<number>(0);
   const [diceType, setDiceType] = useState<number>(0);
   const [roll, setRoll] = useState<number[]>([]);
 
