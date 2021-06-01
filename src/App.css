@@ -4,6 +4,11 @@ body {
   font-family: "Shadows Into Light", cursive;
 }
 
+h3 {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
 p {
   font-family: "Shadows Into Light", cursive;
   font-size: 20px;
