@@ -18,6 +18,11 @@ p {
   justify-content: center;
 }
 
+.label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .button {
   min-width: 3em;
   cursor: pointer;
