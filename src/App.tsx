@@ -31,25 +31,28 @@ function App() {
 
   const diceRoll = () => {
     let rollArr: number[] = [];
-    if (diceType !== 7) {
-      for (let i = 0; i < numDice; i++) {
-        const dRoll: number = Math.floor(Math.random() * diceType) + 1;
-        console.log({ dRoll }, typeof dRoll);
-        rollArr = [...rollArr, dRoll]
-      }
-      setRoll(rollArr);
-    } else if (diceType === 7) {
-      const d4Roll: number = Math.floor(Math.random() * 4) + 1;
-      const d6Roll: number = Math.floor(Math.random() * 6) + 1;
-      const d8Roll: number = Math.floor(Math.random() * 8) + 1;
-      const d10Roll: number = Math.floor(Math.random() * 10) + 1;
-      const dPctRoll: number = (Math.floor(Math.random() * 10) + 1) * 10;
-      const d12Roll: number = Math.floor(Math.random() * 12) + 1;
-      const d20Roll: number = Math.floor(Math.random() * 20) + 1;
-      rollArr = [d4Roll, d6Roll, d8Roll, d10Roll, dPctRoll, d12Roll, d20Roll]
-      setRoll(rollArr);
-    } else if (diceType === 0) {
-      console.log(diceType);
+    switch (diceType) {
+      case 0:
+        console.log(diceType);
+        break;
+      case 7:
+        const d4Roll: number = Math.floor(Math.random() * 4) + 1;
+        const d6Roll: number = Math.floor(Math.random() * 6) + 1;
+        const d8Roll: number = Math.floor(Math.random() * 8) + 1;
+        const d10Roll: number = Math.floor(Math.random() * 10) + 1;
+        const dPctRoll: number = (Math.floor(Math.random() * 10) + 1) * 10;
+        const d12Roll: number = Math.floor(Math.random() * 12) + 1;
+        const d20Roll: number = Math.floor(Math.random() * 20) + 1;
+        rollArr = [d4Roll, d6Roll, d8Roll, d10Roll, dPctRoll, d12Roll, d20Roll]
+        setRoll(rollArr);
+        break;
+      default:
+        for (let i = 0; i < numDice; i++) {
+          const dRoll: number = Math.floor(Math.random() * diceType) + 1;
+          console.log({ dRoll }, typeof dRoll);
+          rollArr = [...rollArr, dRoll]
+        }
+        setRoll(rollArr);
     }
   }
 
