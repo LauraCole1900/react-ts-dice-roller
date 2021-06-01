@@ -42,15 +42,14 @@ function App() {
       }
       setRoll(rollArr);
     } else if (diceType === 7) {
-      const d2Roll: number = Math.floor(Math.random() * 2) + 1;
-      const d3Roll: number = Math.floor(Math.random() * 3) + 1;
       const d4Roll: number = Math.floor(Math.random() * 4) + 1;
       const d6Roll: number = Math.floor(Math.random() * 6) + 1;
       const d8Roll: number = Math.floor(Math.random() * 8) + 1;
       const d10Roll: number = Math.floor(Math.random() * 10) + 1;
+      const dPctRoll: number = (Math.floor(Math.random() * 10) + 1) * 10;
       const d12Roll: number = Math.floor(Math.random() * 12) + 1;
       const d20Roll: number = Math.floor(Math.random() * 20) + 1;
-      rollArr = [d2Roll, d3Roll, d4Roll, d6Roll, d8Roll, d10Roll, d12Roll, d20Roll]
+      rollArr = [d4Roll, d6Roll, d8Roll, d10Roll, dPctRoll, d12Roll, d20Roll]
       setRoll(rollArr);
     } else if (diceType === 0) {
       console.log(diceType);
