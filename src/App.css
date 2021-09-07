@@ -1,7 +1,20 @@
+:root {
+  --myFont: "Shadows Into Light", cursive;
+  --black: #000000;
+  --dkGray: #878992;
+  --ltGray1: #e2e2e2;
+  --ltGray2: #d3d3d3;
+  --brown: #80594f;
+  --gold: #daa524;
+  --ltBlue: #61dafb;
+  --silverGoldGradient: linear-gradient(to top, var(--ltGray2), var(--gold));
+  --silverGradient: linear-gradient(to bottom, var(--ltGray1), var(--dkGray));
+}
+
 body {
-  background-color: #80584f;
+  background-color: var(--brown);
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23453b38' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-  font-family: "Shadows Into Light", cursive;
+  font-family: var(--myFont);
 }
 
 h3 {
@@ -10,7 +23,7 @@ h3 {
 }
 
 p {
-  font-family: "Shadows Into Light", cursive;
+  font-family: var(--myFont);
   font-size: 20px;
 }
 
@@ -30,42 +43,39 @@ p {
 
 .button {
   min-width: 3em;
-  cursor: pointer;
-  background: linear-gradient(to top, lightgray, goldenrod);
-  border: 2px solid black;
-  border-radius: 7px;
-  margin: 5px;
-  padding: 0.25em;
-  font-family: "Shadows Into Light", cursive;
   font-size: 20px;
 }
 .button:hover {
-  background: linear-gradient(to bottom, #e2e2e2, #878992);
+  background: var(--silverGradient);
 }
 .button:focus {
-  background: linear-gradient(to bottom, #e2e2e2, #878992);
+  background: var(--silverGradient);
 }
 .button.active {
-  background: linear-gradient(to bottom, #e2e2e2, #878992);
+  background: var(--silverGradient);
 }
 .button:target {
-  background: linear-gradient(to bottom, #e2e2e2, #878992);
+  background: var(--silverGradient);
 }
 
 .rollBtn {
   min-width: 4em;
-  cursor: pointer;
-  font-family: "Shadows Into Light", cursive;
   font-size: 36px;
-  background: linear-gradient(to top, lightgray, goldenrod);
-  border: 2px solid black;
+}
+
+.button,
+.rollBtn {
+  font-family: var(--myFont);
+  cursor: pointer;
+  background: var(--silverGoldGradient);
+  border: 2px solid var(--black);
   border-radius: 7px;
   margin: 5px;
   padding: 0.25em;
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--ltBlue);
 }
 
 @keyframes App-logo-spin {
