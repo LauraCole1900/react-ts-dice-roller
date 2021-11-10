@@ -46,7 +46,7 @@ This project is intended to be used anytime a dice roll is called for, but you d
 
 ## Technologies Used
 
-React, Node.js, TypeScript
+[![TypeScript](https://img.shields.io/badge/built%20with-TypeScript-007acc)](https://www.typescriptlang.org/) [![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/)
 
 ## Tests
 
@@ -66,4 +66,4 @@ If you have further questions, you can reach me at lauracole1900@comcast.net. Fo
 
 ## Badges
 
-![License badge](https://img.shields.io/badge/license-MIT-daa524) [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/LauraCole1900/react-ts-dice-roller)
+[![License badge](https://img.shields.io/badge/license-MIT-daa524)](./LICENSE) [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/LauraCole1900/react-ts-dice-roller)
